@@ -7,7 +7,7 @@ module "queue" {
   name   = "parksm-test-queue"
 }
 
-module "backup" {
+module "notification" {
   source = "../../modules/bucket"
   name   = "parksm-notification"
   notification = {
